@@ -15,7 +15,32 @@
 
     </ImageView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="603dp"
+        android:gravity="center_horizontal"
+        android:text="Begin Your Fitness Journey"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="529dp"
+        android:gravity="center_horizontal"
+        android:text="Choose Level"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
     <Button
+        android:id="@+id/easy"
         android:layout_width="322dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -30,6 +55,7 @@
     </Button>
 
     <Button
+        android:id="@+id/intermediate"
         android:layout_width="319dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -44,6 +70,7 @@
     </Button>
 
     <Button
+        android:id="@+id/hard"
         android:layout_width="313dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

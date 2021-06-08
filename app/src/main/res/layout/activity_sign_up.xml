@@ -91,6 +91,16 @@
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
+
+    <CheckBox
+        android:id="@+id/agreementCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="246dp"
+        android:text="Terms and Conditions"
+        android:textColor="@color/white" />
+
     <Button
         android:id="@+id/signup"
         android:layout_width="294dp"
@@ -98,9 +108,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginRight="54dp"
-        android:layout_marginBottom="219dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="193dp"
         android:background="@drawable/button1"
         android:text="Sign Up"
         android:textColor="@color/black">
@@ -108,10 +118,23 @@
     </Button>
 
     <TextView
+        android:id="@+id/signUpErrorView"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="265dp"
+        android:layout_marginRight="265dp"
+        android:layout_marginBottom="162dp"
+        android:text="View Error"
+        android:textColor="@color/white" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="133dp"
+        android:layout_marginBottom="120dp"
         android:gravity="center_horizontal"
         android:text="Have an Acount Already?"
         android:textAlignment="center"
@@ -119,19 +142,19 @@
 
     </TextView>
 
+
     <TextView
         android:id="@+id/logintext"
-        android:layout_width="64dp"
-        android:layout_height="29dp"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="52dp"
-        android:layout_marginRight="52dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
         android:layout_marginBottom="121dp"
         android:text="Login"
         android:textColor="@color/yellow" />
-
 
     <ImageView
         android:layout_width="150dp"

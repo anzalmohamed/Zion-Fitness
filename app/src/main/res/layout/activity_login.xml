@@ -86,14 +86,39 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginRight="54dp"
-        android:layout_marginBottom="219dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="222dp"
         android:background="@drawable/button1"
         android:text="Login"
         android:textColor="@color/black">
 
     </Button>
+
+    <TextView
+        android:id="@+id/signInErrorView"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="210dp"
+        android:layout_marginRight="210dp"
+        android:layout_marginBottom="98dp"
+        android:text="error view"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/verifyEmailAgainButton"
+        android:layout_width="217dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="445dp"
+        android:text="Verify Email again" />
 
     <TextView
         android:layout_width="match_parent"
