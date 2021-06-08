@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="568dp"
+        android:src="@drawable/gym"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="513dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="438dp"
+        android:gravity="center_horizontal"
+        android:text="ION FITNESS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="293dp"
+        android:gravity="center_horizontal"
+        android:text="Become Stronger with our workout plans"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:layout_width="294dp"
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/button1"
+        android:text="Get Started"
+        android:textColor="@color/black">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="294dp"
+        android:id="@+id/login"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/button2"
+        android:text="Login"
+        android:textColor="@color/black">
+
+    </Button>
+
+</RelativeLayout>
