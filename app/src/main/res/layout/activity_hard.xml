@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HardActivity"
+    android:background="@color/black">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="192dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginStart="7dp"
+       android:layout_marginLeft="7dp"
+       android:layout_marginEnd="-7dp"
+       android:layout_marginRight="-7dp"
+       android:src="@drawable/hard">
+
+   </ImageView>
+
+
+</RelativeLayout>
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="572dp"
+       android:gravity="center_horizontal"
+       android:text="Begin your 30 day workout plan Today!"
+       android:textAlignment="center"
+       android:textColor="@color/yellow"
+       android:textSize="23dp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="691dp"
+       android:gravity="center_horizontal"
+       android:text="Level: Hard"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+       android:textSize="25dp"
+       android:textStyle="bold" />
+
+   <Button
+       android:id="@+id/day15"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="154dp"
+       android:layout_marginRight="154dp"
+       android:layout_marginBottom="295dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 15"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day8"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="284dp"
+       android:layout_marginRight="284dp"
+       android:layout_marginBottom="137dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 8"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day7"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="284dp"
+       android:layout_marginRight="284dp"
+       android:layout_marginBottom="190dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 7"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day6"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="285dp"
+       android:layout_marginRight="285dp"
+       android:layout_marginBottom="242dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 6"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day5"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="286dp"
+       android:layout_marginRight="286dp"
+       android:layout_marginBottom="294dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 5"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day4"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="287dp"
+       android:layout_marginRight="287dp"
+       android:layout_marginBottom="343dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 4"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day3"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="285dp"
+       android:layout_marginRight="285dp"
+       android:layout_marginBottom="393dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 3"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day2"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="286dp"
+       android:layout_marginRight="286dp"
+       android:layout_marginBottom="443dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 2"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+
+       android:id="@+id/day1"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginTop="-40dp"
+       android:layout_marginEnd="285dp"
+       android:layout_marginRight="285dp"
+       android:layout_marginBottom="494dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 1"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day14"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="156dp"
+       android:layout_marginRight="156dp"
+       android:layout_marginBottom="350dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 14"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day13"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="156dp"
+       android:layout_marginRight="156dp"
+       android:layout_marginBottom="398dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 13"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day12"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="158dp"
+       android:layout_marginRight="158dp"
+       android:layout_marginBottom="448dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 12"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day11"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="158dp"
+       android:layout_marginRight="158dp"
+       android:layout_marginBottom="498dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 11"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day10"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="282dp"
+       android:layout_marginRight="282dp"
+       android:layout_marginBottom="33dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 10"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day9"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="283dp"
+       android:layout_marginRight="283dp"
+       android:layout_marginBottom="84dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 9"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day22"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="32dp"
+       android:layout_marginRight="32dp"
+       android:layout_marginBottom="447dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 22"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day20"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="147dp"
+       android:layout_marginRight="147dp"
+       android:layout_marginBottom="37dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 20"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day19"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="148dp"
+       android:layout_marginRight="148dp"
+       android:layout_marginBottom="85dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 19"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day18"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="150dp"
+       android:layout_marginRight="150dp"
+       android:layout_marginBottom="138dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 18"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day17"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="150dp"
+       android:layout_marginRight="150dp"
+       android:layout_marginBottom="191dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 17"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day16"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="151dp"
+       android:layout_marginRight="151dp"
+       android:layout_marginBottom="243dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 16"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day21"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="33dp"
+       android:layout_marginRight="33dp"
+       android:layout_marginBottom="499dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 21"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="24dp"
+       android:layout_marginRight="24dp"
+       android:layout_marginBottom="34dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 30"
+       android:id="@+id/day30"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day29"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="25dp"
+       android:layout_marginRight="25dp"
+       android:layout_marginBottom="85dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 29"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day28"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="25dp"
+       android:layout_marginRight="25dp"
+       android:layout_marginBottom="137dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 28"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="28dp"
+       android:layout_marginRight="28dp"
+       android:layout_marginBottom="194dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 27"
+       android:id="@+id/day27"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="28dp"
+       android:layout_marginRight="28dp"
+       android:layout_marginBottom="247dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 26"
+       android:id="@+id/day26"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="28dp"
+       android:layout_marginRight="28dp"
+       android:layout_marginBottom="300dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 25"
+       android:id="@+id/day25"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day24"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="27dp"
+       android:layout_marginRight="27dp"
+       android:layout_marginBottom="350dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 24"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+   <Button
+       android:id="@+id/day23"
+       android:layout_width="95dp"
+       android:layout_height="40dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_marginBottom="397dp"
+       android:background="@color/black"
+       android:gravity="center_horizontal"
+       android:text="Day 23"
+       android:textAlignment="center"
+       android:textColor="@color/white" />
+
+
+</RelativeLayout>
