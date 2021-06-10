@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587439333526",
+    "project_id": "zion-fitness",
+    "storage_bucket": "zion-fitness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587439333526:android:e96bf9072fed3b3a18e2b7",
+        "android_client_info": {
+          "package_name": "com.moringaschool.zion_fitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587439333526-7loltnrgeidrsbprv9rj6mldq625hvva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWpooSipq3bQ2dvV6afiCjLQ5azRAsn3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587439333526-7loltnrgeidrsbprv9rj6mldq625hvva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
