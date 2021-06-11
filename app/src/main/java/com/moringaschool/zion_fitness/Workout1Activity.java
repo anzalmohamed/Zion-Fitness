@@ -18,16 +18,16 @@ public class Workout1Activity extends AppCompatActivity {
         mLink3 = (TextView) findViewById(R.id.link3);
         if (mLink != null) {
             mLink.setMovementMethod(LinkMovementMethod.getInstance());
-        }
-        if (mLink2 != null) {
-            mLink.setMovementMethod(LinkMovementMethod.getInstance());
-        }
 
-        if (mLink3 != null) {
-            mLink.setMovementMethod(LinkMovementMethod.getInstance());
-        }
+              if (mLink2 != null) {
+                mLink.setMovementMethod(LinkMovementMethod.getInstance());
+            }
 
+            if (mLink3 != null) {
+                mLink.setMovementMethod(LinkMovementMethod.getInstance());
+            }
+
+        }
     }
 }
-
 
